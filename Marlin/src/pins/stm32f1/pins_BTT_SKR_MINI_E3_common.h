@@ -131,7 +131,7 @@
 
 #if HAS_SPI_LCD
 
-  #if ENABLED(CR10_STOCKDISPLAY)
+  #if EITHER(CR10_STOCKDISPLAY, MALYAN_LCD)
 
     #define BEEPER_PIN                      PB5
     #define BTN_ENC                       EXP1_9
