@@ -558,10 +558,18 @@
   //#define DEFAULT_bedKi 1.41
   //#define DEFAULT_bedKd 1675.16
 
+  // with spring steel bed
+  // #define DEFAULT_bedKp 108.65
+  // #define DEFAULT_bedKi 20.23
+  // #define DEFAULT_bedKd 389.04
+  // #define DEFAULT_bedKp 119.60
+  // #define DEFAULT_bedKi 23.31
+  // #define DEFAULT_bedKd 409.08
+
   // Malyan M200
-  #define DEFAULT_bedKp 108.65
-  #define DEFAULT_bedKi 20.23
-  #define DEFAULT_bedKd 389.04
+  #define DEFAULT_bedKp 119.60
+  #define DEFAULT_bedKi 23.31
+  #define DEFAULT_bedKd 409.08
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
