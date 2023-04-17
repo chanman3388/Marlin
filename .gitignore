@@ -170,6 +170,7 @@ cmake-build-*
 
 # Python
 __pycache__
+*.pyc
 
 # IOLogger logs
 *_log.csv
